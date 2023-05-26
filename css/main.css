@@ -1,0 +1,124 @@
+.description-2, .description-3{
+        display: none;
+    }
+
+.main{
+    position: relative;
+    font-family: 'TT Lakes';
+    font-weight: normal;
+    font-style: normal;
+    background-color:#F8F8F8;
+}
+.main__title__line{
+    position: absolute;
+    top:25px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 4px;
+    height: 40px;
+    background-color: #41F6D7;
+}
+.main__title{
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+    font-weight: bold;
+}
+.main__list{
+    margin-top:25px;
+    list-style: none;
+    display:flex;
+    overflow-x: scroll;
+        
+}
+.main__list__item:first-child{
+    border-radius: 5px;
+    border: 2px solid #41F6D7;
+}
+.main__list__item__link{
+    display:block;
+    padding: 13px 13px 13px 15px;
+    color: #7E7E82;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size:16px;
+}
+.main__text{
+    margin-top:24px;
+}
+.main__description{
+    line-height: 18px;
+    font-size:14px;
+}
+.main__button{
+    margin: 25px 0 0 0;
+    display: block;
+    padding-left: 24px; 
+    
+    border: none;
+    background-color: transparent;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    background-image: url(../Img/expand.svg);
+    background-repeat: no-repeat;
+
+} 
+.main__background--mobile{
+    height: 176px;
+    max-width: 320px;
+    margin: 20px auto 0 auto;
+    background-image: url(../Img/main__background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+@media (min-width:784px){
+    
+    .description-2{
+        display: block;
+        margin-top:30px;
+    }
+    .main__background--mobile{
+        height:0;
+        
+        display:none;
+    }
+    .main__content{
+        margin-top:30px;
+        display: flex;
+    }
+    .main__text{
+        margin-top:10px;
+        width:50%;
+    }
+    .main__background--desktop{
+        width:50%;
+        height: 208px;
+        background-image: url(../Img/main__background.jpg);
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+}
+
+@media (min-width:1121px){
+    .main__list{
+        flex-wrap: wrap;
+    }
+    .main__content{
+        margin-top:0;
+    }
+    .description-3{
+        display:inline;
+    }
+    .main__text{
+        max-width: 490px;
+    }
+    .main__background--desktop{
+        max-width: 532px;
+        height: 307px;
+    }
+}

@@ -1,0 +1,32 @@
+*{
+    font-weight:300;
+    margin: 0 ;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+:focus{
+    outline: none;
+}
+.container{
+        margin: auto;
+        max-width: 288px;
+    }
+
+@media(min-width:784px){
+    .container{
+        margin: auto;
+        max-width: 720px;
+    }
+}
+@media (min-width:1121px){
+    .container{
+        
+        margin: 0 auto;
+        max-width: 1056px;
+        /*outline: 1px solid #666;*/
+}
+}
+
+    
+
+
