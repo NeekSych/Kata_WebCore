@@ -62,7 +62,7 @@
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
-    background-image: url(../Img/expand.svg);
+    background-image: url('../../img/Block-1-3/expand.svg');
     background-repeat: no-repeat;
 
 } 
@@ -70,7 +70,7 @@
     height: 176px;
     max-width: 320px;
     margin: 20px auto 0 auto;
-    background-image: url(../Img/main__background.jpg);
+    background-image: url('../../img/Block-1-3/main__background.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -97,7 +97,7 @@
     .main__background--desktop{
         width:50%;
         height: 208px;
-        background-image: url(../Img/main__background.jpg);
+        background-image: url("../../img/Block-1-3/main__background.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: center bottom;
@@ -107,6 +107,7 @@
 @media (min-width:1121px){
     .main__list{
         flex-wrap: wrap;
+        overflow-x: auto;
     }
     .main__content{
         margin-top:0;

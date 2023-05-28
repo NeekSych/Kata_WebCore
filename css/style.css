@@ -1,17 +1,57 @@
-@import "normalize.css";
-@import "container.css";
-@import "header.css";
-@import "main.css";
 @font-face {
     font-family: "TT Lakes";
-    font-style: normal;
     font-weight: normal;
-    src: url("TTLakes-Regular.woff");
+    font-style: normal;
+    src: url("../fonts/TTLakes/TTLakes-Regular.woff");
+}
+@font-face {
+    font-family: "TT Lakes";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/TTLakes/TTLakes-Bold.woff");
+}
+.main{
+    font-family: "TT Lakes";
+    font-weight: normal;
+    margin: 30px auto;
+    width: 600px;
+    text-align: center;
+    margin-top: 55px
 }
 
-/*{
-    background-image: url('../Img/PP320.jpg');
-    repeat: no-repeat;
-
-}*/
-
+.main__title{
+    font-family: "TT Lakes";
+    font-weight: bold;
+    font-size: 48px;
+}
+.main__task-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main__task{
+    margin: auto 0;
+    display: block;
+}
+.task__link{
+    line-height: 60px;
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    display: block;
+    height: 60px;
+    margin: auto ;
+    padding: auto;
+}
+.task__link:hover, .task__link:focus{
+    outline: 2px solid #000;
+}
+.task__link:active{
+    color:#ccc;
+    outline: none;
+}
+.disabled{
+    pointer-events: none;
+    cursor: default;
+    color:#bbb;
+}

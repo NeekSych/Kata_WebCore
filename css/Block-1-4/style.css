@@ -1,0 +1,29 @@
+@import "normalize.css";
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../fonts/Block-1-4/TTLakes/TTLakes-Regular.woff"),
+        url('../../fonts/Block-1-4/TTLakes/TTLakes-Regular.ttf');
+}
+
+.side-panel{
+    width: 320px;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: aqua;
+}
+.side-panel__header{
+    outline: 1px solid red;
+}
+.header__list{
+
+}
+.header__item{
+
+}
+.disabled{
+    pointer-events: none;
+    cursor: default;
+  }
