@@ -1,0 +1,49 @@
+@import "normalize.css";
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../fonts/Block-1-5/TTLakes/TTLakes-Regular.woff"),
+        url('../../fonts/Block-1-5/TTLakes/TTLakes-Regular.ttf'); 
+}
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../../fonts/Block-1-5/TTLakes/TTLakes-Bold.woff"),
+        url('../../fonts/Block-1-5/TTLakes/TTLakes-Bold.ttf');
+}
+
+.div1{
+    background-color: aqua;
+    height: 50px;
+    width: 75px;
+    
+
+}
+.div2{
+    background: tomato;
+    height: 50px;
+    width: 75px;
+    position: relative;
+    top:20px;
+    left: 20px;
+
+}
+
+@keyframes animation{
+    0% {
+        top: 0;
+        background-color: transparent;
+    }
+    100% {
+        top:100px;
+        background-color: green;
+    };
+}
+.div3{
+    height: 50px;
+    width: 75px;
+    
+    animation: animation 1s ease 0s infinite alternate both;
+}
