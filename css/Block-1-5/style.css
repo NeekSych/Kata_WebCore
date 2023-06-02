@@ -13,37 +13,18 @@
     src: url("../../fonts/Block-1-5/TTLakes/TTLakes-Bold.woff"),
         url('../../fonts/Block-1-5/TTLakes/TTLakes-Bold.ttf');
 }
-
-.div1{
+.brand__title{
+    font-family:"TT Lakes";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7E7E82;
+    margin: auto 0;
+    border-top: 1px solid #D9FFF5;
+    align-items: center;
+    vertical-align: center;
+    padding: 16px;
     background-color: aqua;
-    height: 50px;
-    width: 75px;
-    
-
-}
-.div2{
-    background: tomato;
-    height: 50px;
-    width: 75px;
-    position: relative;
-    top:20px;
-    left: 20px;
-
-}
-
-@keyframes animation{
-    0% {
-        top: 0;
-        background-color: transparent;
-    }
-    100% {
-        top:100px;
-        background-color: green;
-    };
-}
-.div3{
-    height: 50px;
-    width: 75px;
-    
-    animation: animation 1s ease 0s infinite alternate both;
+    box-sizing: border-box;
 }
