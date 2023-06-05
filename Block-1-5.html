@@ -8,70 +8,77 @@
     <title>Блок 1.5</title>
 </head>
 <body>
-    <div class="container brand__container">
+    <div class="container brand">
         <h2 class="brand__title">Ремонт техники различных брендов</h2>
-        <div class="brand__goods">
-            <ul class="brand__list">
-                <li class="brand__item item">
+        <div class="brand__main">
+            <swiper-container class="brand__list">
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Lenovo.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Samsung.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Apple.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/ViewSonic.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Bosch.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/hp.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Acer.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Sony.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Lenovo.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Samsung.svg" alt="Lenovo">
                     </a>
-                </li>
-                <li class="brand__item item">
+                </swiper-slide>
+                <swiper-slide class="brand__item item" class="brand__item item">
                     <a href="" class="item__link">
                         <img src="img/Block-1-5/Apple.svg" alt="Lenovo">
                     </a>
-                </li>                
-            </ul>
+                </swiper-slide>                
+            </swiper-container>
+            <button class="brand__button">
+                <img class="brand__button__icon" alt="V" src="img/Block-1-5/expand.svg">
+                <p class="brand__button__description">Показать все</p>
+            </button>
         </div>
     </div>
 
-    
+   
+
+    <script src='js/Block-1-5/script.js'></script>
+
  <!--Блок должен иметь разное количество элементов при разной ширине экранов.
 По нажатию на "Показать все" открываются все ссылки, по "Скрыть" сворачиваются обратно.
 На мобильном инициируем этот слайдер (погуглите, как это сделать только для мобилки, 

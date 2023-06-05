@@ -17,14 +17,54 @@
     font-family:"TT Lakes";
     font-style: normal;
     font-weight: normal;
+    text-transform: uppercase;
     font-size: 16px;
     line-height: 24px;
     color: #7E7E82;
-    margin: auto 0;
     border-top: 1px solid #D9FFF5;
     align-items: center;
     vertical-align: center;
-    padding: 16px;
-    background-color: aqua;
-    box-sizing: border-box;
+    padding: 16px 32px;
+    background-color: #fff;
+}
+.brand__main{
+    background-color: #F8F8F8;
+}
+.brand__list{
+    display: flex;  
+    flex-wrap: wrap;
+    padding: 24px 32px;
+    column-gap: 24px;
+    row-gap: 16px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.item__link{
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    display: flex;
+    width:224px;
+    height: 72px;
+    background-color: #fff;
+    background-image: url(../../img/Block-1-5/go.svg);
+    background-repeat: no-repeat;
+    background-position: 84% 50% ;
+    
+}
+.item__link img{
+    align-self: center;
+    mARGIN-LEFT: 16PX;
+}
+.brand__button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 133px;
+    border: none;
+    font-family:"TT Lakes";
+    font-style: normal;
+    font-weight: bold;
+    margin: 24px 0 24px 32px;
 }
