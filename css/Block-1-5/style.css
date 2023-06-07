@@ -29,6 +29,7 @@
 }
 .brand__main{
     background-color: #F8F8F8;
+    padding-bottom: 34px;
 }
 .brand__list{
     display: flex;  
@@ -37,7 +38,6 @@
     column-gap: 24px;
     row-gap: 16px;
     overflow: hidden;
-    transition: 2s;
 }
 
 .item__link{
@@ -66,5 +66,5 @@
     font-family:"TT Lakes";
     font-style: normal;
     font-weight: bold;
-    margin: 24px 0 24px 32px;
+    margin: 24px 0 24px 34px;
 }

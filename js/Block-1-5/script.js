@@ -1,14 +1,15 @@
 /*window.addEventListener('resize', function(){*/
-    if(window.innerWidth > 320){
-         let viewButton = document.querySelector('.brand__button');
+    let viewButton = document.querySelector('.brand__button');
         let viewWindow = document.querySelector('.brand__list');
         let buttonText = document.querySelector('.brand__button__description');
         let buttonDirection = document.querySelector('.brand__button__icon');
-        viewWindow.style.height     ="144px";
+        let slider = document.querySelector('.slider-script');
+        viewWindow.style.height     ="144px"; 
+    if(window.innerWidth > 320){
+        
 
         viewButton.addEventListener("click", function(){
                 if (viewWindow.style.height =="144px"){
-                viewWindow.style.transition = 'height 2s ease-in';
                 viewWindow.style.height ="auto";
                 buttonText.innerHTML='Скрыть';
                 buttonDirection.style.transform=("rotate(180deg)");
@@ -19,5 +20,7 @@
             }
         });
     }    else{
-        document.write('<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"><\/script>');
+        document.write('<script class="script" src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>');
+        viewButton.style.display = 'none';
     }
+    
